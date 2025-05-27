@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.main {
+    border: 1px solid black;
+display: flex;
+flex-direction: row;
+}
+
+.products {
+border: 1px solid blue;
+width: 70%;
+}
+
+.product__image-container {
+    width: 100%;
+    height:300px;
+    background-color: #eee;
+}
+
+
+.cart {
+border: 1px solid red;
+width: 30%;
+}
+
+.cart__header {
+
+}
+.cart__list {
+
+}
+.cart__list__item {
+
+
+}
